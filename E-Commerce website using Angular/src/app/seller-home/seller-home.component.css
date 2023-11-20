@@ -1,0 +1,29 @@
+table {
+    text-align: left;
+    color: blueviolet;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td,
+table th {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    min-width: 16px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.product-btn {
+    margin-left: 5px;
+}
+
+.product-list-heading {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

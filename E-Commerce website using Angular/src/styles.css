@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: blueviolet;
+}
+
+.form-button{
+    background-color: rgba(137, 43, 226, 0.107);
+    height: 35px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+
+.error-p{
+    color: red;
+    font-size: 14px;
+}
+
+.message-p{
+    color: green;
+    font-size: 14px;
+    text-align: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.765);
+    border-radius: 5px;
+}
+
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+.max-width{
+    width: 100%;
+}

@@ -1,0 +1,142 @@
+{
+  "seller": [
+    {
+      "name": "Abhishek Tiwari",
+      "email": "avi@tml.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "rajeev",
+      "password": "12345",
+      "email": "rajeev@ttl.com",
+      "id": 2
+    },
+    {
+      "name": "riya",
+      "password": "123456",
+      "email": "riya@ttl.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 14",
+      "price": "100000",
+      "color": "Black",
+      "category": "smartphone",
+      "description": "flagship phone",
+      "image": "https://phonebox.com.mt/wp-content/uploads/2022/11/0021403_iphone-14-pro.jpeg",
+      "id": 1
+    },
+    {
+      "name": "OnePlus 11",
+      "price": "55000",
+      "color": "Green",
+      "category": "smartphone",
+      "description": "Mid range smartphone",
+      "image": "https://img.tuttoandroid.net/wp-content/uploads/2023/01/OnePlus-11-tag.png",
+      "id": 2
+    },
+    {
+      "name": "Dell Latitude ",
+      "price": "120000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "Business laptop",
+      "image": "https://i2.wp.com/laptopmedia.com/wp-content/uploads/2017/08/img_25992414_high_1472678938_3632_26430.jpg?fit=1876%2C1404",
+      "id": 3
+    },
+    {
+      "name": "Sony Bravia",
+      "price": "100000",
+      "color": "black",
+      "category": "T.V.",
+      "description": "Premium range T.V. set",
+      "image": "https://www.compareprix.in/images/product/large/sony-bravia-klv-40r252f-40-inch-full-hd-led-television-large.jpg",
+      "id": 4
+    },
+    {
+      "name": "BoAt Storm",
+      "price": "4000",
+      "color": "black",
+      "category": "Smart wearables",
+      "description": "boAt smartwatch for activity tracking",
+      "image": "https://cdn1.smartprix.com/rx-ivSUMjfEl-w1200-h1200/boat-storm-smartwatc.jpg",
+      "id": 5
+    },
+    {
+      "name": "Oppo enco m31",
+      "price": "2000",
+      "color": "Green",
+      "category": "Neckband",
+      "description": "Bluetooth wireless earphones",
+      "image": "https://m.media-amazon.com/images/I/61ZITxudd9S._SL1500_.jpg",
+      "id": 6
+    },
+    {
+      "name": "Vi data card",
+      "price": "1000",
+      "color": "white",
+      "category": "wifi",
+      "description": "Mobile wifi",
+      "image": "https://assets.mspimages.in/gear/wp-content/uploads/2022/03/Vi-MiFi.jpg",
+      "id": 7
+    },
+    {
+      "name": "Sony MDRX650BT",
+      "price": "3000",
+      "color": "Blue",
+      "category": "Wireless headphones",
+      "description": "Wireless over the ear headphones",
+      "image": "https://www.bhphotovideo.com/images/images2500x2500/sony_mdrxb650bt_l_mdr_xb650bt_extrabass_bluetooth_headphones_1220509.jpg",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "a",
+      "password": "12345",
+      "email": "a@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "b",
+      "password": "12345",
+      "email": "b@gmail.com",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "name": "Iphone 14",
+      "price": "100000",
+      "color": "Black",
+      "category": "smartphone",
+      "description": "flagship phone",
+      "image": "https://phonebox.com.mt/wp-content/uploads/2022/11/0021403_iphone-14-pro.jpeg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "avi@tml.com",
+      "address": "ayodhya",
+      "contact": "9936",
+      "totalprice": 4850,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "ab@test",
+      "address": "pune",
+      "contact": "9988",
+      "totalprice": 4850,
+      "userId": 1,
+      "id": 2
+    }
+  ]
+}
